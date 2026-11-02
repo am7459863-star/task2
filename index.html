@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيقات الإنترنت وامن المعلومات - CSS - تقرير فني</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f4f7f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            background: #ffffff;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eef2f5;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .info-box {
+            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+            border: 1px solid #cbd5e1;
+            border-right: 6px solid #fea1e0;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: right;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.0392156862745098);
+            margin-top: 15px;
+        }
+        .info-box p {
+            margin: 8px 0;
+            font-size: 15px;
+            color: #2d3748;
+        }
+        .info-box strong {
+            color: #1a365d;
+        }
+        h2 {
+            color: #feaaf3;
+            border-bottom: 2px solid #fe9bdf;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        h3 {
+            color: #7f8c8d;
+            font-size: 17px;
+        }
+        p {
+            font-size: 15px;
+            text-align: justify;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #e2e8f0;
+            text-align: right;
+        }
+        th {
+            background-color: #fb9cd2;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #fefafc;
+        }
+        ul {
+            padding-right: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #ffaefa;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- رأس الصفحة والمربع الأنيق للبيانات -->
+        <header>
+            <h1>تقرير لغة CSS (Cascading Style Sheets)</h1>
+            <div class="info-box">
+                <p><strong>اسم الطالبة:</strong> آيات محمد أحمد الباز</p>
+                <p><strong>الرقم الجامعي:</strong> 2501192</p>
+                <p><strong>شعبة القبول:</strong> نظم المعلومات الإدارية</p>
+                <p><strong>رقم السكشن:</strong> 28</p>
+                <p><strong>تحت إشراف:</strong> د/ مها زغلول</p>
+            </div>
+        </header>
+
+        <!-- المقدمة -->
+        <section>
+            <h2>1. المقدمة</h2>
+            <p>أو ما يُعرف بـ <strong>CSS (Cascading Style Sheets)</strong>، وهي لغة التنسيق الأساسية التي تتيح لصفحات الويب مظهراً جذاباً ومتناسقاً عبر التحكم بالألوان، الخطوط، وتوزيع العناصر المرئية.</p>
+            <p>هي لغة تستخدم في تصميم صفحات الويب، فمن خلالها يمكنك تغيير ألوان العناوين، تحديد مواقعها وأحجامها، إضافة مؤثرات، وجعل صفحات الويب متجاوبة مع مختلف أحجام الشاشات لكي تعرض بشكل ملائم للمستخدم.</p>
+        </section>
+
+        <!-- عرض الموضوع -->
+        <section>
+            <h2>2. عرض الموضوع: أهمية ومميزات لغة CSS</h2>
+            <p>تساعد لغة CSS في تصميم مواقع الويب بشكل أكثر جمالاً وسهولة وبأحدث المعايير.</p>
+            
+            <h3>أهم المزايا</h3>
+            <p><strong>1. إنشاء الرسوم المتحركة:</strong> لتسهيل عملية إنشاء الرسوم المتحركة والتفاعل مع المواقع الإلكترونية، دون الحاجة لتنفيذ أكواد برمجية معقدة.</p>
+            <p><strong>2. إدارة قوالب المواقع الإلكترونية الديناميكية:</strong> التحكم وتغيير عناصر ومستويات بناء صفحات HTML بكفاءة عالية وبأقل كمية من الأكواد.</p>
+            <p><strong>3. تصميم الواجهات الأمامية:</strong> أثبتت هذه اللغة دورها الفعال في تصميم الواجهات وتنسيق صفحات الويب باختلاف أنواعها.</p>
+        </section>
+
+        <!-- جدول توضيحي -->
+        <section>
+            <h2>3. جدول توضيحي لمهام ووظائف CSS</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>المجال / الوظيفة</th>
+                        <th>الوصف التفصيلي</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>تنسيق الألوان والخلفيات</strong></td>
+                        <td>إتاحة اختيار الألوان وتطبيق درجات متناسقة أو متدرجة.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>التحكم بالخطوط والمسافات</strong></td>
+                        <td>تعديل نوع الخطوط، حجمها، المسافات بين الحروف والأسطر والهوامش.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>التصميم المتجاوب</strong></td>
+                        <td>جعل الموقع يظهر بشكل ممتاز ومناسب لجميع أحجام الشاشات (حواسيب، هواتف، أجهزة لوحية).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- المراجع -->
+        <section>
+            <h2>4. المراجع</h2>
+            <p>تم الاستعانة بالمصادر والمراجع التالية لإعداد هذا التقرير:</p>
+            <ul>
+                <li><a href="https://www.w3.org" target="_blank">الموقع الرسمي لتطوير الويب العالمية (W3C)</a></li>
+                <li><a href="https://developer.mozilla.org" target="_blank">موقع مطوري ويب (MDN Web Docs)</a></li>
+                <li><a href="https://www.w3schools.com/css" target="_blank">المرجع العلمي لتعلم CSS (W3Schools)</a></li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
